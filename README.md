@@ -6,7 +6,7 @@ criteria:
 
 * A major closure of an epicenter 
 * A major shelter-in-place type of order is issued
-* A significate travel-ban is issued
+* A significant travel-ban is issued
 
 ## Tech
 
