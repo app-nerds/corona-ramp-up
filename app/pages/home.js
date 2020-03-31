@@ -111,7 +111,7 @@ export default {
 		</div>
 
 		<div class="row mt-3">
-			<div class="col">
+			<div class="col-lg-6 col-md-12">
 				<div class="form-group">
 					<label><strong>Regions:</strong></label>
 					<ejs-multiselect
@@ -139,7 +139,7 @@ export default {
 				</div>
 			</div>
 
-			<div class="col scrolling-info-panel">
+			<div class="col-lg-6 col-md-12 scrolling-info-panel">
 				<p class="mt-3" v-if="selectedRegions.length && selectedStartPoint">
 					Here is some information for the regions you selected:
 
