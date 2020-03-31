@@ -116,6 +116,15 @@ func (a *Application) handleMainPage(ctx echo.Context) error {
 	<script src="/app/assets/syncfusion/ej2-vue.min.js"></script>
 
 	<script src="/app/main.js" type="module"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44927419-4"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-44927419-4');
+	</script>
 	</body>
 </html>
 `)
