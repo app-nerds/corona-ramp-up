@@ -1,0 +1,13 @@
+/*
+ * Copyright (c) 2020. App Nerds LLC All Rights Reserved
+ */
+
+.main-body {
+	position: relative;
+	top: 64px;
+}
+
+.scrolling-info-panel {
+	overflow-y: scroll;
+	height: 200px;
+}

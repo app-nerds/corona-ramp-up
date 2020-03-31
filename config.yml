@@ -1,0 +1,12 @@
+---
+server:
+   host: "0.0.0.0:8080"
+   loglevel: "debug"
+   autoSSL: false
+   autoSSLWhitelist: []
+   autoSSLEmail: ""
+
+dailyReport:
+   baseURL: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/web-data/data/cases_time.csv"
+#   baseURL: "./cases_time.csv"
+   schedule: "0 1 * * *"
